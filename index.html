@@ -9,51 +9,69 @@
 </head>
 <body>
   <header>
-    <nav>
+    <div class="nav-bar">
       <span> <a href="#home" class="navbar-item">About</a> </span>
       <span> <a href="#proyects" class="navbar-item">Proyects</a> </span>
       <span> <a href="#contact" class="navbar-item">Contact</a> </span>
-    </nav>
+    </div>
   </header>
 
   <div class="container" id="home">
     <div class="about-me">
-      <img src="/images/yo.png" alt="">
+      <img src="/images/yo.png" alt="idk" >
       <p class="name">Juan Jose Garcia Pinzon</p>
       <p class="dedication">Developer</p>
       <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus pariatur rerum molestias, unde nesciunt dolores sed nulla, quo quis adipisci harum similique eum voluptas? Ab necessitatibus excepturi ex quas at?</p>
     </div>
+    <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-4.23,94.23 C150.00,150.00 271.49,-50.00 509.30,113.97 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: rgb(0, 192, 0);"></path></svg></div>
+    <h2 class="title">Proyects</h2>
     <div class="proyects" id="proyects">
-      <div class="pro-description">
-        <h2>Proyects</h2>
+      <div class="proyect">
+        <img src="" alt="">
+        <h2 class="title-proyec">Educare</h2>
+        <p class="desc-proyec">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolore eos nemo architecto quia vel possimus! Minus cupiditate atque modi est ad, labore architecto laborum accusamus, quia nostrum, voluptate necessitatibus?</p>
+        <a href="/pages/educare.html">Ver más</a>
       </div>
       <div class="proyect">
         <img src="" alt="">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus dolore eos nemo architecto quia vel possimus! Minus cupiditate atque modi est ad, labore architecto laborum accusamus, quia nostrum, voluptate necessitatibus?</p>
+        <h2 class="title-proyec">ToDo - Flask</h2>
+        <p class="desc-proyec">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis temporibus aut repellat in dicta, atque suscipit, eaque laboriosam libero vitae eveniet laborum numquam recusandae vero ipsum corporis consectetur earum voluptate!</p>
+        <a href="/pages/todo-Flask.html">Ver más</a>
       </div>
       <div class="proyect">
         <img src="" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis temporibus aut repellat in dicta, atque suscipit, eaque laboriosam libero vitae eveniet laborum numquam recusandae vero ipsum corporis consectetur earum voluptate!</p>
+        <h2 class="title-proyec">WebSockets - Flask</h2>
+        <p class="desc-proyec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sit sunt iste, consectetur error totam neque repellat rerum ipsa, maxime veniam nesciunt. Culpa praesentium eligendi rem corrupti quam similique tempora?</p>
+        <a href="/pages/sockets-Flask.html">Ver más</a>
       </div>
       <div class="proyect">
         <img src="" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sit sunt iste, consectetur error totam neque repellat rerum ipsa, maxime veniam nesciunt. Culpa praesentium eligendi rem corrupti quam similique tempora?</p>
+        <h2  class="title-proyec">Re Diseño pagina web</h2>
+        <p class="desc-proyec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, accusantium at? Facere perspiciatis aperiam voluptates! Voluptatum facere magnam neque eligendi praesentium, nobis hic possimus autem harum illo consectetur temporibus cum.</p>
+        <a href="/pages/saiRediseño.html">Ver más</a>
       </div>
       <div class="proyect">
         <img src="" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, accusantium at? Facere perspiciatis aperiam voluptates! Voluptatum facere magnam neque eligendi praesentium, nobis hic possimus autem harum illo consectetur temporibus cum.</p>
-      </div>    
+        <h2  class="title-proyec">API - Wheather</h2>
+        <p class="desc-proyec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, accusantium at? Facere perspiciatis aperiam voluptates! Voluptatum facere magnam neque eligendi praesentium, nobis hic possimus autem harum illo consectetur temporibus cum.</p>
+        <a href="/pages/apiJs.html">Ver más</a>
+      </div>   
+      <div class="proyect">
+        <img src="" alt="">
+        <h2  class="title-proyec">API REST - Flask</h2>
+        <p class="desc-proyec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, accusantium at? Facere perspiciatis aperiam voluptates! Voluptatum facere magnam neque eligendi praesentium, nobis hic possimus autem harum illo consectetur temporibus cum.</p>
+        <a href="/pages/rest-Flask.html">Ver más</a>
+      </div>       
     </div>
     <div class="tecnologies">
       <div class="tec-description">
-        <h2>Tecnologies</h2>
+        <h2 class="title">Tecnologies</h2>
       </div>
       <div class="tec-images">
-        <img src="images/js.png" alt="" height="80px">
-        <img src="images/python.png" alt="" height="80px">
-        <img src="images/git.png" alt="" height="80px">
-        <img src="images/flask.png" alt="" height="80px">
-        <img src="" alt="">
+        <img src="images/js.png" alt="" height="80px" class="img-tec">
+        <img src="images/python.png" alt="" height="80px" class="img-tec">
+        <img src="images/git.png" alt="" height="80px" class="img-tec">
+        <img src="images/flask.png" alt="" height="80px" class="img-tec">
       </div>
     </div>
   </div>
@@ -63,8 +81,8 @@
       <p> <i>"El verdadero progreso es el que pone la tecnologia al alcance de todos"</i> - Henry Ford</p>
     </div>
     <div class="contact">
-      <h2>Contact</h2>
-      <p>Email: juanjo5792@gmail.com <br> Phone: +57 3207683079 <br> LinkedIn: <a href=""></a> </p>
+      <h2 class="title-footer">Contact</h2>
+      <p class="information">Email: juanjo5792@gmail.com <br> Phone: +57 3207683079 <br> LinkedIn: <a href="https://www.linkedin.com/in/juan-jos%C3%A9-garcia-pinz%C3%B3n-060ab11b6/" class="link-footer" target="_blank"> Juan José García Pinzón </a> <br> GitHub: <a href="https://github.com/Juan961" class="link-footer" target="_blank"> Juan961 </a> </p>
     </div>
   </footer>
 </body>
