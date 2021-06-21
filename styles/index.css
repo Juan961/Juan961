@@ -1,3 +1,10 @@
+:root {
+    --bg-body-color: white;
+    --bg-header-color: rgb(0, 192, 0);
+    --tx-body-color: black;
+    --tx-header-color: white;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +13,7 @@
 
 body {
     box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ---------------- HEADER ---------------- */
@@ -16,7 +23,7 @@ header {
     top: 0;   
     width: 100%;
     height: 60px;
-    background-color: rgb(0, 192, 0);
+    background-color: var(--bg-header-color);
 }
 
 .nav-bar {
@@ -28,9 +35,8 @@ header {
 
 .navbar-item {
     text-decoration: none;
-    color: black;
     line-height: 60px;
-    color: white;
+    color: var(--tx-header-color);
 }
 
 
@@ -38,10 +44,11 @@ header {
 
 .container {
     width: 100%;
+    margin-bottom: 50px;
 }
 
 #home, #proyects, #contact {
-    scroll-margin-top: 120px;
+    scroll-margin-top: 150px;
 }
 
 .name, .dedication, .description, .title{
@@ -49,8 +56,8 @@ header {
 }
 
 .about-me {
-    background-color: rgb(0, 192, 0);
-    color: white;
+    background-color: var(--bg-header-color);
+    color: var(--tx-header-color);
 }
 
 .title {
@@ -66,6 +73,15 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.desc-proyec{
+    line-height: 25px;
+    text-align: justify;
+}
+
+.info-proyec, .title-proyec, .desc-proyec {
+    margin: 5px 0;
 }
 
 .tec-images {
@@ -92,13 +108,10 @@ footer {
 }
 
 .phrase {
-    display: table;
-}
-
-.phrase p{
     text-align: center;
-    display: table-cell;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title-footer {
@@ -108,5 +121,5 @@ footer {
 
 .link-footer {
     text-decoration: none;
-    color: green;
+    color: var(--bg-header-color);
 }
