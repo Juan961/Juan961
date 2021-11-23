@@ -15,7 +15,7 @@ const aboutMe = {
       },
       backEnd: {
          java: ["Spring"],
-         js: ["Node", "Express"]
+         js: ["Node", "Express"],
          python: ["Flask", "Django"]
       },
       databases: ["mySQL", "PostgreSQL"]
