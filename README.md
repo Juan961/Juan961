@@ -1,26 +1,28 @@
-## 👋 Hi , welcome to my profile
+## 👋 Hi, welcome to my profile
 
-Hi I'm Juan José, a web developer passionate about technology and science.
+Hi, I'm Juan José, a web developer and Mechatronics Engineering student passionate about technology, cloud architecture, and machine learning.
 
 ### About Me
 
 ```javascript
 const aboutMe = {
    pronouns: "he" | "him",
-   code: [Javascript, HTML, CSS, Python, Java],
+   code: [Nuxt, Typescript, Python],
    technologies: {
-      tools: ["VsCode", "Git", "GitHub", "GitLab"],
+      tools: ["VsCode", "Git", "GitHub"],
       frontEnd: {
-         js: ["VueJS"]
+         js: ["Nuxt"]
       },
       backEnd: {
-         java: ["Spring"],
          js: ["Node", "Express"],
-         python: ["Flask", "Django"]
+         python: ["Flask", "FastAPI"]
       },
-      databases: ["mySQL", "PostgreSQL"]
+      cloud: ["Azure", "AWS"],
+      databases: ["PostgreSQL", "MongoDB"]
    },
-   currentOccupation: ["Student, open for job opportunities"]
+   currentOccupation: ["Full Stack Developer @ GoDev", "Mechatronics Engineering Student"],
+   interests: ["Web Development", "Machine Learning", "Cloud Architecture", "IoT"],
+   learning: ["Neural Networks", "IoT"]
 };
 ```
 
